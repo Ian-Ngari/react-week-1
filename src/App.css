@@ -1,0 +1,14 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap'); */
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+
+.BookItem {
+  transition: all 0.3s ease;
+}

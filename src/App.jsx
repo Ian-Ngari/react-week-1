@@ -41,9 +41,8 @@
 
 // export default App
 
-// App.js
+
 import React from 'react';
-import './App.css';
 import BookList from './Pages/Booklist';
 
 const App = () => {
@@ -58,12 +57,13 @@ const App = () => {
     { id: 8, title: 'Ruth', author: 'Ruth', year: '1375 - 1050 BC'},
     { id: 9, title: '1st Samuel', author: 'Samuel, Nathan and Gad', year: '930 BC'},
     { id: 10, title: '2nd Samuel', author: 'Unknown', year: '930 BC'},
+   
   ];
 
   return (
-    <div className="App min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 py-12 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-indigo-800 mb-10 font-serif">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
           Books of the Old Testament
         </h1>
         <BookList books={books} />
